@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Iniciar sesión</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Iniciar sesión</h1>
+        <div id="loginError" class="error" style="display:none;"></div>
+        <form id="loginForm" method="post" action="login.php">
+            <input type="email" name="email" placeholder="Email" required><br>
+            <input type="password" name="password" placeholder="Contraseña" required><br>
+            <input type="submit" value="Iniciar sesión">
+        </form>
+        <p>¿No tienes una cuenta? <a href="register.php">Regístrate aquí</a></p>
+    </div>
+</body>
+</html>
